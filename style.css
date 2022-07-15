@@ -1,0 +1,74 @@
+
+body{
+        background-color:rgba(128, 128, 128, 0.231);
+}
+#header{
+        text-align: center;
+        background-color: rgb(52, 166, 176);
+        border: 1px solid black;
+        padding:20px;
+        margin-top:-10px
+}
+
+ #todo_input{
+        width: 30%;
+}
+#todo_input, #add_button{
+        padding:10px;
+        border-radius: 4px;
+}
+#add_button{
+        background-color:rgb(78, 220, 78);
+        color:white;
+        width:10%;
+        overflow:hidden
+}
+.input_section,.header{
+text-align:center
+}
+.list_item_pending{
+        padding:10px;
+        border:1px solid black;
+        margin-bottom:10px ;
+        width:80%;
+        border-radius:8px;
+        background-color:rgb(5, 5, 45);
+        color:white
+}
+ul{
+        list-style-type:decimal-leading-zero;
+}
+.pending_list,.item_button,.in_progress_list,.done_list{
+        display:flex;
+        flex-direction:column;
+        flex:1
+}
+.todo_list{
+        display:flex;
+        flex-direction:row;
+}
+.pending,.inProgress,.done{
+        display:flex;
+        flex:1;
+}
+.content{
+        display:flex;
+        flex-direction:row;
+        justify-content: space-between;
+        align-items: center;
+}
+.edit_button,.remove_button,.move_to_in_progress,.move_to_done,.move_to_pending{
+        margin-bottom:5px;
+        border-radius: 4px;
+        color:white;
+        padding:4px;
+}
+.edit_button{
+        background-color:rgb(195, 212, 10)
+}
+.remove_button{
+        background-color:red
+}
+.move_to_in_progress,.move_to_done,.move_to_pending{
+        background-color:rgb(50, 171, 205)
+}

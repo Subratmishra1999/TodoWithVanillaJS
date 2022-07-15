@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" defer src="index.js"></script>
+    <title>CRUD</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="header">ToDo List</h1>
+    </header>
+    <main>
+      <section class="input_section">
+        <input id="todo_input" type="text" placeholder="Enter ToDo Item" />
+        <button id="add_button" type="submit">Add Item</button>
+      </section>
+      <section class="todo_list">
+        <section class="pending">
+          <ul class="pending_list">
+            <h2 class="header">Pending Todos</h2>
+          </ul>
+        </section>
+        <section class="inProgress">
+          <ul class="in_progress_list">
+            <h2 class="header">In Progress Todos</h2>
+          </ul>
+        </section>
+        <section class="done">
+          <ul class="done_list">
+            <h2 class="header">Completed Todos</h2>
+          </ul>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
